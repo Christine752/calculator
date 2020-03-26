@@ -4,5 +4,5 @@ var bodyMassIndex = function(weight, height) {
 
 var height = parseInt(prompt("Enter your weight:"));
 var weight = parseInt(prompt("Enter your height:"));
-var result = divide(weight, height);
+var result = bodyMassIndex(weight, height);
 alert(result);
