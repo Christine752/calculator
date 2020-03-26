@@ -1,8 +1,8 @@
-var divide = function(number1, number2) {
-  return number1 / number2;
+var bodyMassIndex = function(weight, height) {
+  return weight / height;
 };
 
-var number1 = parseInt(prompt("Enter a number:"));
-var number2 = parseInt(prompt("Enter another number:"));
-var result = divide(number1, number2);
+var height = parseInt(prompt("Enter your weight:"));
+var weight = parseInt(prompt("Enter your height:"));
+var result = divide(weight, height);
 alert(result);
