@@ -12,7 +12,10 @@ var divide = function(number1, number2) {
 };
 
 $(document).ready(function() {
-  var number1 = parseInt($("#add1").val());
-  var number2 = parseInt($("#add2").val());
-  alert(add(number1, number2));
+  $("form#add").submit(function(event) {
+    event.preventDefault();
+    var number1 = parseInt($("#add1").val());
+    var number2 = parseInt($("#add2").val());
+    alert(add(number1, number2));
+  });
 });
